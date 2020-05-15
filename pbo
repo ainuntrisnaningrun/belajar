@@ -1,0 +1,30 @@
+class buku
+{
+	private String pengarang;
+	private String judul;
+	
+	public buku (String pengarang, String judul)
+	{
+		this.pengarang = pengarang;
+		this.judul = judul;
+	}
+	public buku()
+	{
+	}
+	
+	public void info()
+	{
+		System.out.println("pengarang" + this.pengarang);
+		System.out.println("judul" + judul);
+	}
+}
+public class kontruktor2
+{
+	public static void main(String args[])
+	{
+		buku bukuku = new buku("ani", "pencari cinta");
+		bukuku.info();
+		buku bukumu = new buku();
+		bukumu.info()
+	}
+}
